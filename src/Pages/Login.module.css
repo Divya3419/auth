@@ -1,0 +1,123 @@
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  color: white;
+}
+.signup {
+  color: white;
+  width: 60%;
+  margin: auto;
+}
+.signup .inner {
+  width: 60%;
+  margin: auto;
+}
+
+.box1 {
+  display: block;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(119, 69, 69);
+  border-radius: 10px;
+
+  margin-top: 60px;
+  height: 90%;
+}
+
+.inner {
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+.box1 input {
+  width: 60%;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.btn1 {
+  color: white;
+  background-color: rgb(180, 50, 50);
+  width: 60%;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.btn2 {
+  color: white;
+  width: 60%;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 20px;
+  border: 1px solid red;
+  background: none;
+}
+
+.store {
+  height: 6%;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    display: block;
+  }
+  .signup {
+    color: white;
+    background: none;
+  }
+  .box1 {
+    display: block;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(119, 69, 69);
+    border-radius: 10px;
+
+    margin-top: 60px;
+    height: 90%;
+  }
+
+  .inner {
+    margin-top: 25%;
+    margin-bottom: 25%;
+  }
+  .box1 input {
+    width: 60%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .btn1 {
+    color: white;
+    background-color: rgb(180, 50, 50);
+    width: 60%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .btn2 {
+    color: white;
+    width: 60%;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 1px solid red;
+    background: none;
+  }
+
+  .imgs {
+    display: none;
+  }
+  .store {
+    height: 6%;
+  }
+}
