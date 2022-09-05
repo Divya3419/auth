@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "./Login.module.css";
+import styles from "./Signup.module.css"
 import logo from '../resources/banner.png';
 const Signup = () => {
   return (
+    <>
+    
+    
     <div className={styles.signup}>
       <div className={styles.box1}>
         <div className={styles.inner}>
@@ -25,6 +28,7 @@ const Signup = () => {
 
       <div className={styles.imgs}></div>
     </div>
+    </>
   );
 };
 
